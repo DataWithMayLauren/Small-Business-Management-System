@@ -1,0 +1,5 @@
+OrderID,Customer,Service,Weight_KG,Status
+101,Alice,Wash-Dry-Fold,5,Ready
+102,Bob,Wash-Only,8,Washing
+103,Charlie,Dry-Clean,2,Pending
+104,MayLauren,Wash-Dry-Fold,10,Pending
