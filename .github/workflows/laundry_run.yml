@@ -10,3 +10,6 @@ jobs:
 
       - name: Run Bank Reconciliation
         run: python bank_recon.py
+
+      - name: Generate QuickBooks Import File
+        run: python qb_exporter.py
