@@ -3,7 +3,7 @@ import csv
 def run_accounting_system():
     print("--- 🧺 MAY LAUREN'S FINANCIAL DASHBOARD ---")
     
-    # 1. Calculate Accounts Receivable (What customers owe us)
+    # 1. Calculate Accounts Receivable (Incoming)
     receivable = 0
     rates = {"Wash-Dry-Fold": 65.0, "Wash-Only": 35.0, "Dry-Clean": 150.0}
     
@@ -14,7 +14,7 @@ def run_accounting_system():
                 bill = rates.get(row['Service'], 0) * float(row['Weight_KG'])
                 receivable += bill
     
-    # 2. Calculate Accounts Payable (What we owe others)
+    # 2. Calculate Accounts Payable (Outgoing)
     payable = 0
     with open('expenses.csv', mode='r') as file:
         reader = csv.DictReader(file)
@@ -22,10 +22,22 @@ def run_accounting_system():
             if row['Status'] == 'Unpaid':
                 payable += float(row['Amount'])
 
+    net_position = receivable - payable
+
     print(f"💰 Accounts Receivable (Incoming): ₱{receivable:,.2f}")
     print(f"💸 Accounts Payable (Outgoing):  ₱{payable:,.2f}")
     print("-" * 40)
-    print(f"💼 Net Cash Position:           ₱{receivable - payable:,.2f}")
+    print(f"💼 Net Cash Position:           ₱{net_position:,.2f}")
+    print("-" * 40)
+
+    # 🚩 BUSINESS INTELLIGENCE / SAFETY ALERTS
+    if net_position < 0:
+        print("⚠️  SAFETY ALERT: Accounts Payable exceeds Receivable!")
+        print(f"   You need ₱{abs(net_position):,.2f} more to cover your bills.")
+    elif net_position == 0:
+        print("ℹ️  BREAK EVEN: You have exactly enough to cover bills.")
+    else:
+        print("✅ HEALTHY: Your incoming cash covers all current debts.")
     print("------------------------------------------")
 
 if __name__ == "__main__":
