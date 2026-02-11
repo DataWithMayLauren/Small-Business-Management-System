@@ -3,3 +3,6 @@ OrderID,Customer,Service,Weight_KG,Status,PaymentStatus
 102,Bob,Wash-Only,8,Washing,Unpaid
 103,Charlie,Dry-Clean,2,Pending,Unpaid
 104,MayLauren,Wash-Dry-Fold,10,Pending,Unpaid
+105,Leila,Wash-Only,8,Washing,Unpaid
+106,Mark,Wash-Dry-Fold,5,Ready,Paid
+107,Becca,Dry-Clean,10,Paid
