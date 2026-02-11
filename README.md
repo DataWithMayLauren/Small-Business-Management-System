@@ -1,12 +1,4 @@
-## 🧺 Module: Laundry Shop Manager
-This module handles the workflow for a local laundry business. 
-
-### ⚙️ Logic & Pricing:
-* **Wash-Dry-Fold:** ₱65.00 / KG
-* **Wash-Only:** ₱35.00 / KG
-* **Dry-Clean:** ₱150.00 / KG
-
-### 📊 Features:
-- [x] Automatic price calculation based on KG weight.
-- [x] Order status tracking (Pending, Washing, Ready).
-- [x] Revenue forecasting from current orders.
+### 🧾 Financial Modules
+- **Accounts Receivable (AR):** Automatically tracks unpaid customer orders and calculates expected incoming cash.
+- **Accounts Payable (AP):** Monitors business expenses and upcoming bills to manage shop overhead.
+- **Cash Flow Analysis:** Provides a "Net Cash Position" to determine the business's current financial health.
