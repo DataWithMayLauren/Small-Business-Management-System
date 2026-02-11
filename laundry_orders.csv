@@ -1,6 +1,5 @@
-OrderID,Customer,Service,Weight_KG,Status
-101,Alice,Wash-Dry-Fold,5,Ready
-102,Bob,Wash-Only,8,Washing
-103,Charlie,Dry-Clean,2,Pending
-104,MayLauren,Wash-Dry-Fold,10,Pending
-105,DelaCruz,Wash-Only,12,Pending
+OrderID,Customer,Service,Weight_KG,Status,PaymentStatus
+101,Alice,Wash-Dry-Fold,5,Ready,Paid
+102,Bob,Wash-Only,8,Washing,Unpaid
+103,Charlie,Dry-Clean,2,Pending,Unpaid
+104,MayLauren,Wash-Dry-Fold,10,Pending,Unpaid
