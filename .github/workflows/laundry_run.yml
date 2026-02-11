@@ -1,0 +1,9 @@
+name: Laundry Shop Daily Report
+on: [push]
+jobs:
+  calculate-bill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run Laundry System
+        run: python laundry_app.py
