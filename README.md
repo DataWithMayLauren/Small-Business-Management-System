@@ -14,7 +14,14 @@ This professional bookkeeping module compares internal sales records against ext
 - **Automated Verification:** Matches total "Paid" orders against actual bank deposits.
 - **Discrepancy Detection:** Flags differences immediately to prevent fraud or accounting errors.
 - **Audit Ready:** Ensures that the digital ledger and real-world cash are always in sync.
+- 
+## 📁 QuickBooks Online (QBO) Integration
+I specialize in bridging the gap between raw business data and professional accounting software.
 
+### 🧩 QB Skills Demonstrated:
+* **Chart of Accounts Mapping:** Automated mapping of service items (Wash/Dry/Fold) to QuickBooks Income accounts.
+* **Batch Data Import:** Scripted generation of CSV Sales Receipts for high-volume batch processing in QBO.
+* **Data Integrity:** Ensuring that the "Subledger" (my Python system) matches the "General Ledger" (QuickBooks) through automated formatting.
 ---
 
 ## 📖 User Manual & Operations Guide
