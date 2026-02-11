@@ -1,2 +1,3 @@
 Customer,TransactionDate,RefNo,Item,Quantity,Rate,Amount
 Alice,2026-02-12,101,Wash-Dry-Fold,5,65.0,325.0
+Mark,2026-02-12,106,Wash-Dry-Fold,5,65.0,325.0
