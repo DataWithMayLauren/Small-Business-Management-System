@@ -13,3 +13,11 @@ jobs:
 
       - name: Generate QuickBooks Import File
         run: python qb_exporter.py
+        
+      - name: Save generated files to repo
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add qb_import_ready.csv
+          git commit -m "Auto-generated QuickBooks import file" || echo "No changes to commit"
+          git push   
