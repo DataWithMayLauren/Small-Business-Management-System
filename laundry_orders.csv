@@ -3,3 +3,4 @@ OrderID,Customer,Service,Weight_KG,Status
 102,Bob,Wash-Only,8,Washing
 103,Charlie,Dry-Clean,2,Pending
 104,MayLauren,Wash-Dry-Fold,10,Pending
+105,DelaCruz,Wash-Only,12,Pending
