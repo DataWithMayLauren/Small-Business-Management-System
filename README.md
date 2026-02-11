@@ -23,6 +23,13 @@ I specialize in bridging the gap between raw business data and professional acco
 * **Batch Data Import:** Scripted generation of CSV Sales Receipts for high-volume batch processing in QBO.
 * **Data Integrity:** Ensuring that the "Subledger" (my Python system) matches the "General Ledger" (QuickBooks) through automated formatting.
 ---
+### ✅ Automation Proof
+The system is fully automated using GitHub Actions. Every update triggers a financial audit and generates QuickBooks-ready files.
+
+<p align="center">
+  <img src="action_success.png" width="600" alt="GitHub Actions Success Log">
+</p>
+
 
 ## 📖 User Manual & Operations Guide
 
