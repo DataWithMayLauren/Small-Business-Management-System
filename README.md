@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="logo.png" width="200" alt="Laundry Logic Logo">
+</p>
+
+# 🧺 Laundry Logic: Automated Clean
 ### 🧾 Financial Modules
 - **Accounts Receivable (AR):** Automatically tracks unpaid customer orders and calculates expected incoming cash.
 - **Accounts Payable (AP):** Monitors business expenses and upcoming bills to manage shop overhead.
